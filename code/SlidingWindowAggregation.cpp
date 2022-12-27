@@ -1,4 +1,3 @@
-//ちょっとバグがあるかも
 template<class S, S (*op)(S, S), S (*e)()>
 class SWAG{
 public:
@@ -27,7 +26,7 @@ private:
             pop_st.push({push_st.top().first, push_st.top().first});
             push_st.pop();
             while(not push_st.empty()){
-                pop_st.push({push_st.top().first, op(push_st.top().second, pop_st.top().second)});
+                pop_st.push({push_st.top().first, op(push_st.top().first, pop_st.top().second)});
                 push_st.pop();
             }
         }
