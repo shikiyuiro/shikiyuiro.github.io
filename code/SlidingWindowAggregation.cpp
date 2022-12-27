@@ -1,3 +1,4 @@
+//ちょっとバグがあるかも
 template<class S, S (*op)(S, S), S (*e)()>
 class SWAG{
 public:
