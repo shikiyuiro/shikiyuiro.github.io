@@ -1,11 +1,3 @@
-/* author: kyawa */
-#include<bits/stdc++.h>
-using namespace std;
-
-/*
- 考察
- */
-
 template <class Cap> struct mf_graph {
   public:
     mf_graph() : _n(0) {}
@@ -141,7 +133,3 @@ template <class Cap> struct mf_graph {
     std::vector<std::pair<int, int>> pos;
     std::vector<std::vector<_edge>> g;
 };
-
-int main(){
-
-}

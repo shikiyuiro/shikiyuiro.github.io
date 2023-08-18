@@ -1,13 +1,3 @@
-#include<bits/stdc++.h>
-using namespace std;
-
-/*
- mod998244353の畳み込み
- 両方の配列のサイズが2^19 = 524288以下であれば安全である。
- (テストしていないが、配列のサイズの和がNが2^23-1 = 8388606以下であれば大丈夫だと思う。)
- Verified with:https://judge.yosupo.jp/submission/148581
-*/
-
 struct FFT998{
     vector<int64_t> root;
     vector<int64_t> invroot;
@@ -70,8 +60,8 @@ struct FFT998{
     }
 };
 
+/*sample
 int main(){
-    //sample
     cin.tie(nullptr)->ios::sync_with_stdio(false);
     vector<int64_t> A = {3, 1, 4};
     vector<int64_t> B = {1, 5, 9, 2, 6};
@@ -81,3 +71,4 @@ int main(){
     cout << '\n';
     //3 16 36 35 56 14 24 
 }
+*/
