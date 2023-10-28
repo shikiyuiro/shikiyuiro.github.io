@@ -1,3 +1,4 @@
 # shikiyuiro.github.io
 競技プログラミングのライブラリです。  
-gcc c++17 での動作を確認しています。
+gcc c++17 での動作を確認しています。  
+[ライブラリ](https://shikiyuiro.github.io)  
